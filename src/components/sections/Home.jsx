@@ -35,7 +35,7 @@ export const Home = () => {
                 </a>
 
                 <a
-                  href="/CV.pdf"
+                  href="./CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border border-cyan-500/50 text-cyan-400 py-3 px-6 rounded-lg font-medium transition-all duration-200 
@@ -56,7 +56,7 @@ export const Home = () => {
                 <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white/10 shadow-2xl hover:shadow-[0_0_30px_rgba(59,130,246,0.3)] transition-all duration-300 hover:scale-105">
                   {/* Placeholder - Replace with your actual image */}
                   <img
-                    src="/profile-image.jpg" // You'll need to add your image to the public folder
+                    src="./profile-image.jpg"
                     alt="Noshin Fouzia Tasnim"
                     className="w-full h-full object-cover"
                     onError={(e) => {
