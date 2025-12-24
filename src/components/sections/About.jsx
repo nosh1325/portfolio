@@ -147,7 +147,7 @@ export const About = () => {
                   </div>
                   <p className="text-gray-300 mb-2 font-medium">Event Management Department, BRAC University Computer Club (BUCC)</p>
                   <ul className="text-gray-400 space-y-1 list-disc list-inside">
-                    <li>Successfully organized multiple large scale events and led volunteer teams collaborating with different departments</li>
+                    <li>Successfully organized 25+ events, workshops and webinars and led volunteer teams collaborating with different departments</li>
                     <li>Managed permissions and received guests and event sponsors</li>
                     <li>Experienced in food allotment and arranging venue, created a guideline book on venue booking rules in accordance with university policies</li>
                     <li>Planned and supervised activities of BUCC Study Corner</li>
@@ -204,6 +204,48 @@ export const About = () => {
                   <h4 className="text-xl font-semibold text-white mb-2">Bronze Award at Duke of Edinburgh International Awards</h4>
                   <p className="text-gray-400">It was a 6-month long program combining skill development, physical activity, voluntary service and adventurous journey</p>
                 </div>
+              </div>
+            </div>
+
+            {/* Certifications & Licenses Section */}
+            <div className="bg-white/5 backdrop-blur-sm rounded-xl p-6 border border-white/10">
+              <h3 className="text-2xl font-bold mb-4 flex items-center text-orange-400">
+                <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 2L13.09 6.26L18 5L16.74 10.09L22 12L16.74 13.91L18 19L13.09 17.74L12 22L10.91 17.74L6 19L7.26 13.91L2 12L7.26 10.09L6 5L10.91 6.26L12 2Z"/>
+                </svg>
+                Certifications & Licenses
+              </h3>
+              <div className="space-y-4">
+                {/* Add your actual certifications here */}
+                <div className="border-l-4 border-orange-400/50 pl-6 hover:border-orange-400 transition-colors">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                    <h4 className="text-xl font-semibold text-white">Image Processing in Python</h4>
+                    <span className="text-orange-400 font-medium">Issued September 2024</span>
+                  </div>
+                  <p className="text-gray-300 mb-2 font-medium"> Datacamp </p>
+                  <p className="text-gray-400">Credential ID: 524,492 • Processing, transforming and manipulating images using Python libraries; object detection model</p>
+                </div>
+
+                <div className="border-l-4 border-orange-400/50 pl-6 hover:border-orange-400 transition-colors">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                    <h4 className="text-xl font-semibold text-white">Image Modeling with Keras</h4>
+                    <span className="text-orange-400 font-medium">Issued September 2024</span>
+                  </div>
+                  <p className="text-gray-300 mb-2 font-medium">Datacamp</p>
+                  <p className="text-gray-400">Credential ID: 36,233,842 • Constructing, training and evaluating CNNs with Keras</p>
+                </div>
+
+                <div className="border-l-4 border-orange-400/50 pl-6 hover:border-orange-400 transition-colors">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                    <h4 className="text-xl font-semibold text-white"> Biomedical Image Analysis in Python</h4>
+                    <span className="text-orange-400 font-medium">Completed September 2024</span>
+                  </div>
+                  <p className="text-gray-300 mb-2 font-medium">Datacamp</p>
+                  <p className="text-gray-400">Credential ID: 36,229,313 • Exploring, manipulating and measuring biomedical image data</p>
+                </div>
+
+                {/* Placeholder for more certifications */}
+                
               </div>
             </div>
           </div>

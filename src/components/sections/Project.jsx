@@ -6,7 +6,7 @@ export const Projects = () => {
   ];
 
   const frameworksLibraries = [
-    "Laravel", "React.js", "Next.js", "PyTorch", "Matplotlib", "TensorFlow", "Pandas", "Scikit-learn"
+    "Laravel", "React.js", "Next.js", "PyTorch", "Keras", "Matplotlib", "TensorFlow", "Pandas", "Scikit-learn"
   ];
 
   const developmentTools = [
@@ -199,7 +199,7 @@ export const Projects = () => {
             >
               <h3 className="text-xl font-bold mb-2">Travelcom</h3>
               <p className="text-gray-400 mb-4">
-                A website created for finding travel partner and planning trips. Features admin notification system, user chatting and group trip features implemented.
+                A website created for finding travel partner and planning trips. Features admin notification system, user chatting and group trip planning.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
                 {["Laravel", "React", "HTML", "CSS"].map((tech, key) => (
