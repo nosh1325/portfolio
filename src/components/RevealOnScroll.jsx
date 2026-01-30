@@ -16,7 +16,7 @@ export const RevealOnScroll = ({ children }) => {
     if (ref.current) observer.observe(ref.current);
 
     return () => observer.disconnect();
-  });
+  }, []); // Add empty dependency array
 
   return (
     <div ref={ref} className="reveal">
