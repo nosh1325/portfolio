@@ -57,6 +57,14 @@ export const About = () => {
               <div className="space-y-4">
                 <div className="border-l-4 border-blue-400/50 pl-6 hover:border-blue-400 transition-colors">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                    <h4 className="text-xl font-semibold text-white">Master of Science in Data Science, Computer Science and Engineering</h4>
+                    <span className="text-blue-400 font-medium">Jan 2026 - present </span>
+                  </div>
+                  <p className="text-gray-300 mb-2 font-medium">BRAC University, Dhaka</p>
+                </div>
+
+                <div className="border-l-4 border-blue-400/50 pl-6 hover:border-blue-400 transition-colors">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                     <h4 className="text-xl font-semibold text-white">Bachelor of Science in Computer Science and Engineering</h4>
                     <span className="text-blue-400 font-medium">Oct 2021 - Oct 2025</span>
                   </div>
@@ -216,7 +224,6 @@ export const About = () => {
                 Certifications & Licenses
               </h3>
               <div className="space-y-4">
-                {/* Add your actual certifications here */}
                 <div className="border-l-4 border-orange-400/50 pl-6 hover:border-orange-400 transition-colors">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                     <h4 className="text-xl font-semibold text-white">Image Processing in Python</h4>
@@ -226,6 +233,14 @@ export const About = () => {
                   <p className="text-gray-400">Credential ID: 524,492 • Processing, transforming and manipulating images using Python libraries; object detection model</p>
                 </div>
 
+                <div className="border-l-4 border-orange-400/50 pl-6 hover:border-orange-400 transition-colors">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                    <h4 className="text-xl font-semibold text-white">Introduction to LLMs in Python</h4>
+                    <span className="text-orange-400 font-medium">Issued September 2024</span>
+                  </div>
+                  <p className="text-gray-300 mb-2 font-medium">Datacamp</p>
+                  <p className="text-gray-400">Credential ID: 36,350,127 • Introduction to LLMs, leveraging pre-trained LLMs and datasets and fine-tuning them using Python</p>
+                </div>
                 <div className="border-l-4 border-orange-400/50 pl-6 hover:border-orange-400 transition-colors">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                     <h4 className="text-xl font-semibold text-white">Image Modeling with Keras</h4>

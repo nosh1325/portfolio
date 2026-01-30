@@ -8,8 +8,8 @@ export const Research = () => {
     "Neuromorphic Computing",
     "Human Computer Interaction",
     "Computer Vision",
-    "Deep Learning",
-    "Neural Networks"
+    "Natural Language Processing",
+    "Large Language Models",
   ];
 
   return (
