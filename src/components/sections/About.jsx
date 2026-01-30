@@ -1,6 +1,8 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
+  console.log("About component is rendering"); // Debug log
+  
   const languages = [
     "Python", "C/C++", "Javascript", "PHP", "SQL", "HTML", "CSS", "RISC-V", "x86 assembly"
   ];
