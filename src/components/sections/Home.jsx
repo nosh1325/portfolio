@@ -16,7 +16,7 @@ export const Home = () => {
               </h1>
 
               <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-                I'm a postgraduated student specailizing in Data Science under Computer Science and Engineering from BRAC University. I am passionate about learning, teaching, data analysis, software development and research. My research interests include AI/ML, Image Processing, Biomedical Image Analysis, Neuromorphic Computing, Large Language Models and Human Computer Interaction.
+                I'm a postgraduate student specializing in Data Science under Computer Science and Engineering from BRAC University. I am passionate about learning, teaching, data analysis, software development and research. My research interests include AI/ML, Image Processing, Biomedical Image Analysis, Neuromorphic Computing, Large Language Models and Human Computer Interaction.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mb-8">
                 <a
