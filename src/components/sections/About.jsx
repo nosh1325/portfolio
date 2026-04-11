@@ -105,6 +105,19 @@ export const About = () => {
               <div className="space-y-4">
                 <div className="border-l-4 border-purple-400/50 pl-6 hover:border-purple-400 transition-colors">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                    <h4 className="text-xl font-semibold text-white">Intern, Product Management, App & Essential Services</h4>
+                    <span className="text-purple-400 font-medium">Jan 2026 - Present </span>
+                  </div>
+                  <p className="text-gray-300 mb-2 font-medium">Product & Technology Division, bKash Ltd.</p>
+                  <ul className="text-gray-400 space-y-1 list-disc list-inside">
+                    <li>Worked in developing the Source of Truth with 7500+ data for bKash’s virtual assistant, AVA’s deployment</li>
+                    <li>Contributed to dataset preparation and schema for new AVA conversational flow</li>
+                    <li>Researched on LLMs, RAG, chunking strategies, and annotation practices</li>
+                    <li> Market visit to analyse demands of consumers regarding bKash services </li>
+                  </ul>
+                </div>
+                <div className="border-l-4 border-purple-400/50 pl-6 hover:border-purple-400 transition-colors">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                     <h4 className="text-xl font-semibold text-white">Undergraduate Teaching Assistant / Student Tutor</h4>
                     <span className="text-purple-400 font-medium">Jun 2024 - May 2025</span>
                   </div>
