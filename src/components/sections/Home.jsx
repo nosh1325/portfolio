@@ -35,7 +35,7 @@ export const Home = () => {
                 </a>
 
                 <a
-                  href="./CV.pdf"
+                  href="./CV_Noshin_Fouzia_Tasnim.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="border border-cyan-500/50 text-cyan-400 py-3 px-6 rounded-lg font-medium transition-all duration-200 

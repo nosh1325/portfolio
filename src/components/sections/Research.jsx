@@ -67,7 +67,7 @@ export const Research = () => {
                 <div className="border-l-4 border-purple-400/50 pl-6 hover:border-purple-400 transition-colors">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                     <h4 className="text-lg font-semibold text-white">Classification of Alzheimer's and Dementia subtypes using R-STDP Driven Spiking Neural Networks</h4>
-                    <span className="text-purple-400 font-medium text-sm">2024</span>
+                    <span className="text-purple-400 font-medium text-sm">2025</span>
                   </div>
                   <p className="text-gray-300 mb-2 font-medium">AI/ML, Neuroimaging, Undergraduate Thesis</p>
                   <p className="text-gray-300 mb-3 text-sm">

@@ -63,6 +63,10 @@ export const About = () => {
                     <span className="text-blue-400 font-medium">Jan 2026 - present </span>
                   </div>
                   <p className="text-gray-300 mb-2 font-medium">BRAC University, Dhaka</p>
+                  <div className="text-gray-400 space-y-1">
+                    <p><strong>CGPA:</strong> 4.00/4.00 • <strong>Credits Completed:</strong> 9/36</p>
+                    <p><strong>Notable Courses:</strong> Research Methodology and Seminar, Advanced NLP, Gamification</p>
+                  </div>
                 </div>
 
                 <div className="border-l-4 border-blue-400/50 pl-6 hover:border-blue-400 transition-colors">
@@ -105,8 +109,19 @@ export const About = () => {
               <div className="space-y-4">
                 <div className="border-l-4 border-purple-400/50 pl-6 hover:border-purple-400 transition-colors">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                    <h4 className="text-xl font-semibold text-white">Lecturer (Contractual), Department of Software Engineering</h4>
+                    <span className="text-purple-400 font-medium">Sept, 2026 - present</span>
+                  </div>
+                  <p className="text-gray-300 mb-2 font-medium">Daffodil International University</p>
+                  <ul className="text-gray-400 space-y-1 list-disc list-inside">
+                    <li>Assigned to Software Engineering Design Capstone Project Course; teaching software development through lectures and coding demonstrations </li>
+                    <li>Responsible for mentoring 100 students to plan, build and deploy industry-level, full-stack software projects</li>
+                  </ul>
+                </div>
+                <div className="border-l-4 border-purple-400/50 pl-6 hover:border-purple-400 transition-colors">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                     <h4 className="text-xl font-semibold text-white">Intern, Product Management, App & Essential Services</h4>
-                    <span className="text-purple-400 font-medium">Jan 2026 - Present </span>
+                    <span className="text-purple-400 font-medium">Jan 2026 - May, 2026 </span>
                   </div>
                   <p className="text-gray-300 mb-2 font-medium">Product & Technology Division, bKash Ltd.</p>
                   <ul className="text-gray-400 space-y-1 list-disc list-inside">
@@ -239,6 +254,15 @@ export const About = () => {
                 Certifications & Licenses
               </h3>
               <div className="space-y-4">
+                <div className="border-l-4 border-orange-400/50 pl-6 hover:border-orange-400 transition-colors">
+                  <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
+                    <h4 className="text-xl font-semibold text-white">Data Science and AI, GCI World 2026 </h4>
+                    <span className="text-orange-400 font-medium">Issued August 2026</span>
+                  </div>
+                  <p className="text-gray-300 mb-2 font-medium">Matsuo-Iwasawa Laboratory, Graduate School of Engineering, The University of Tokyo</p>
+                  <p className="text-gray-400"> Introduction to Data Science, fundamental concepts and techniques in data analysis and machine learning</p>
+                </div>
+
                 <div className="border-l-4 border-orange-400/50 pl-6 hover:border-orange-400 transition-colors">
                   <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                     <h4 className="text-xl font-semibold text-white">Image Processing in Python</h4>

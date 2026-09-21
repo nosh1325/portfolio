@@ -22,7 +22,7 @@ export const CV = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 {/* Download CV Button */}
                 <a
-                  href="/CV.pdf"
+                  href="/CV_Noshin_Fouzia_Tasnim.pdf"
                   download="Noshin Fouzia Tasnim_CV.pdf"
                   className="inline-flex items-center px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-200 shadow-lg hover:shadow-blue-500/25"
                 >
